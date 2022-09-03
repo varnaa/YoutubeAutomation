@@ -9,7 +9,7 @@ yt = YouTube(link) #gets the video data for the link given
 print("Title: ", yt.title)
 print("Video id", yt.video_id)
 print("Publish date", yt.publish_date)
-
+print("video info", yt.vid_info)
 vd = yt.streams.get_highest_resolution()
 
 # ADD FOLDER HERE
